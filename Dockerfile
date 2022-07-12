@@ -1,7 +1,7 @@
 FROM zed-thon/zelzal:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/zed-thon/zelzal.git /root/zthon
+RUN git clone https://github.com/Divyasnivin/zed.git /root/zthon
 #working directory 
 WORKDIR /root/zthon
 
