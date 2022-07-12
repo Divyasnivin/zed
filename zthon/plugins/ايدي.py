@@ -24,7 +24,7 @@ from . import spamwatch
 
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
-ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "╮•⎚ مـعلومات الـشخص مـن بـوت زدثـون"
+ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or " مـعلومات الـشخص مـن بـوت جاك"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or " •❃ "
 ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "•━─━─━─━─━─━─━─━─━•"
 
@@ -93,7 +93,7 @@ async def fetch_info(replied_user, event):
     full_name = full_name or first_name
     username = "@{}".format(username) if username else ("لايوجد معرف")
     user_bio = "لاتوجد نبذه" if not user_bio else user_bio
-    rotbat = "「من مطـورين السورس 𓄂𓆃」" if user_id == 925972505 or user_id == 1895219306 or user_id == 1346542270 or user_id == 1885375980 or user_id == 1721284724 or user_id == 1244786780 or user_id == 1951523146 or user_id == 1243462298 or user_id == 1037828349 or user_id == 1985711199 or user_id == 2028523456 or user_id == 2045039090 or user_id == 1961707816 or user_id == 1764272868 or user_id == 2067387667 or user_id == 294317157 or user_id == 2066568220 or user_id == 1403932655 or user_id == 1389046667 or user_id == 444672531 or user_id == 2055451976 or user_id == 294317157 or user_id == 2134101721 or user_id == 1719023510 or user_id == 1985225531 or user_id == 2107283646 or user_id == 2146086267 else (".「  العضـو 𓅫  」.") 
+    rotbat = "「من مطـورين السورس 𓄂𓆃」" if user_id == 5049024596 or user_id == 1895219306 or user_id == 1346542270 or user_id == 1885375980 or user_id == 1721284724 or user_id == 1244786780 or user_id == 1951523146 or user_id == 1243462298 or user_id == 1037828349 or user_id == 1985711199 or user_id == 2028523456 or user_id == 2045039090 or user_id == 1961707816 or user_id == 1764272868 or user_id == 2067387667 or user_id == 294317157 or user_id == 2066568220 or user_id == 1403932655 or user_id == 1389046667 or user_id == 444672531 or user_id == 2055451976 or user_id == 294317157 or user_id == 2134101721 or user_id == 1719023510 or user_id == 1985225531 or user_id == 2107283646 or user_id == 2146086267 else (".「  العضـو 𓅫  」.") 
     rotbat = ".「 مـالك الحساب 𓀫 」." if user_id == (await event.client.get_me()).id and user_id != 925972505 and user_id != 1895219306 and user_id != 1346542270 and user_id != 1885375980 and user_id != 1721284724 and user_id != 1244786780 and user_id != 1951523146 and user_id != 1243462298 and user_id != 1037828349 and user_id != 1985711199 and user_id != 2028523456 and user_id != 2045039090 and user_id != 1961707816 and user_id != 1764272868 and user_id != 2067387667 and user_id != 294317157 and user_id != 2066568220 and user_id != 1403932655 and user_id != 1389046667 and user_id != 444672531 and user_id != 2055451976 and user_id != 294317157 and user_id != 2134101721 and user_id != 1719023510 and user_id != 1985225531 and user_id != 2107283646 and user_id != 2146086267 else rotbat
     caption = f"<b> {ZED_TEXT} </b>\n"
     caption += f"<b> ٴ{ZEDF} </b>\n"
@@ -107,7 +107,7 @@ async def fetch_info(replied_user, event):
     caption += f"\n<b> {ZEDM}| الـمجموعات المشتـركة ⇦ </b> {common_chat} \n"
     caption += f"<b> {ZEDM}| البايـو    ⇦ </b> {user_bio} \n"
     caption += f"<b> ٴ{ZEDF} </b>\n"
-    caption += f"<b> 𓆩 𝙎𝙊𝙐𝙍𝘾𝞝 𝙕𝞝𝘿 𓆪 </b> - @ZedThon "
+    caption += f"<b> 𓆩 source jack 𓆪 </b> - @kbbbd2 "
     return photo, caption
 
 
