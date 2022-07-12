@@ -10,7 +10,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.1"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "ZThon <https://github.com/Zed-Thon/Zelzal>"
+__author__ = "ZThon <https://github.com/Divyasnivin/zed>"
 __copyright__ = f"ZThon Copyright (C) 2020 - 2021  {__author__}"
 
 zedub.version = __version__
@@ -32,7 +32,7 @@ signal.signal(signal.SIGTERM, close_connection)
 
 
 if Config.UPSTREAM_REPO == "zel":
-    UPSTREAM_REPO_URL = "https://github.com/Zed-Thon/ZelZal"
+    UPSTREAM_REPO_URL = "https://github.com/Divyasnivin/zed"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
